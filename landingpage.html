@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Day</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+   
+
+header {
+    background-color: #8A2BE2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #D4BFA6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.search input {
+    padding: 5px;
+}
+
+main {
+    background-color: #F4BD00;
+    padding: 20px;
+    text-align: center;
+}
+
+.breadcrumb {
+    color: black;
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.product-images .image {
+    background-color: green;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.product-images .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    text-align: left;
+}
+
+.product-details h1, h3 {
+    margin: 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+.colors {
+    display: flex;
+    margin: 10px 0;
+}
+
+.colors .color {
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+.colors .green { background-color: green; }
+.colors .orange { background-color: orange; }
+.colors .black { background-color: black; }
+.colors .white { background-color: white; border: 1px solid black; }
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">SPLS</div>
+        <div class="header-links">
+            <a href="#">Sales Day</a>
+            <a href="#">Help</a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </nav>
+    <main>
+        <h1>LANDING PAGE TEMPLATE</h1>
+        <h2>11.11</h2>
+        <div class="breadcrumb">
+            Home / Sneakers / Sales Day
+        </div>
+        <div class="content">
+            <div class="product-images" >
+                <div class="image"><img src="white-shoe.jpg" alt="White Shoe"></div>
+                <div class="image"><img src="black-shoe.jpg" alt="Black Shoe"></div>
+            </div>
+            <div class="product-details">
+                <h3>SALES DAY</h3>
+                <h1>Cloud S23 | RUN</h1>
+                <p>Running shoe</p>
+                <p>1 pair: <span class="original-price">$100</span> $80</p>
+                <p>2 pairs: $159</p>
+                <p>Colors:</p>
+                <div class="colors">
+                    <span class="color green"></span>
+                    <span class="color orange"></span>
+                    <span class="color black"></span>
+                    <span class="color white"></span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
